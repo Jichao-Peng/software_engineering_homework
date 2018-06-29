@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SubwayGUI</class>
+ <widget class="QDialog" name="SubwayGUI">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>953</width>
+    <height>762</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>SubwayGUI</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 255, 255);</string>
+  </property>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>20</y>
+     <width>730</width>
+     <height>730</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius:10px;
+background-image: url(:/Source/xianluda.jpg);</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="StartEdit">
+   <property name="geometry">
+    <rect>
+     <x>790</x>
+     <y>20</y>
+     <width>151</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>IBeamCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);
+border-radius:6px;
+border:1px solid rgb(220, 220, 220)</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="EndEdit">
+   <property name="geometry">
+    <rect>
+     <x>790</x>
+     <y>90</y>
+     <width>151</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>IBeamCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);
+border-radius:6px;
+border:1px solid rgb(220, 220, 220)</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="StartButton">
+   <property name="geometry">
+    <rect>
+     <x>750</x>
+     <y>20</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{background-color: rgb(255, 255, 255);border:1px solid rgb(200, 200, 200);border-radius:5px}
+QPushButton:hover{background-color: rgb(255, 255, 255);border:1px solid rgb(100, 100, 100);border-radius:5px}QPushButton:pressed{background-color: rgb(255, 255, 255);border:2px solid rgb(100, 100, 100);border-radius:5px}
+QPushButton:released{background-color: rgb(255, 255, 255);border-radius:2px}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="resource.qrc">
+     <normaloff>:/Source/图片1.png</normaloff>:/Source/图片1.png</iconset>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="EndButton">
+   <property name="geometry">
+    <rect>
+     <x>750</x>
+     <y>90</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{background-color: rgb(255, 255, 255);border:1px solid rgb(200, 200, 200);border-radius:5px}
+QPushButton:hover{background-color: rgb(255, 255, 255);border:1px solid rgb(100, 100, 100);border-radius:5px}QPushButton:pressed{background-color: rgb(255, 255, 255);border:2px solid rgb(100, 100, 100);border-radius:5px}
+QPushButton:released{background-color: rgb(255, 255, 255);border-radius:2px}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="resource.qrc">
+     <normaloff>:/Source/图片2.png</normaloff>:/Source/图片2.png</iconset>
+   </property>
+  </widget>
+  <widget class="QLabel" name="ResultEdit">
+   <property name="geometry">
+    <rect>
+     <x>750</x>
+     <y>150</y>
+     <width>191</width>
+     <height>601</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);
+border-radius:6px;
+border:1px solid rgb(220, 220, 220)</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="textFormat">
+    <enum>Qt::PlainText</enum>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+   </property>
+   <property name="wordWrap">
+    <bool>true</bool>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="resource.qrc"/>
+ </resources>
+ <connections/>
+</ui>

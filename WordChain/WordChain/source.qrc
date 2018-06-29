@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/">
+        <file>source/file.png</file>
+        <file>source/reset.png</file>
+        <file>source/start.png</file>
+        <file>source/xiaohui.png</file>
+    </qresource>
+</RCC>
